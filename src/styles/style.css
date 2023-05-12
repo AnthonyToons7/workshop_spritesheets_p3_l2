@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(63, 63, 63);
+}
+#canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.controls {
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.controls, select option {
+    font-size: 15px;
+}
+label {
+    color: rgb(255, 255, 255);
+}
